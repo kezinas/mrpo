@@ -1,0 +1,20 @@
+linter:
+  rules:
+    avoid_empty_else: true
+    always_declare_return_types: true
+    prefer_single_quotes: true
+    prefer_is_empty: true
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  language:
+    strict-raw-types: true
+  errors:
+    unused_element: warning
+    unused_import: warning
+    unused_local_variable: warning
+    dead_code: warning
+    avoid_init_to_null: warning
+    prefer_final_fields: warning
+    prefer_final_locals: warning
